@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 50px;
+            height: 50px;
+            display: inline-block;
+            background-color: red;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        .hidden {
+            visibility: hidden;
+        }
+        .none {
+            display: none;
+        }
+        .half {
+            opacity: 0.5;
+        }
+        .rgb {
+            background-color: rgb(255, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">1</div>
+    <div class="box hidden">2</div>
+    <div class="box">3</div>
+    <hr>
+    <div class="box">1</div>
+    <div class="box none">2</div>
+    <div class="box">3</div>
+    <hr>
+    <div class="box">1</div>
+    <div class="box half">2</div>
+    <div class="box">3</div>
+    <hr>
+    <div class="box">1</div>
+    <div class="box rgb">2</div>
+    <div class="box">3</div>
+</body>
+</html>

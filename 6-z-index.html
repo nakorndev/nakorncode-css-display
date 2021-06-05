@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    X = แนวนอน
+    Y = แนวตั้ง
+    Z = แนวลึก
+    <hr>
+    <!-- z-index: 0; -->
+    <div class="box" style="background-color: red; z-index: 1;"></div>
+    <div class="box" style="background-color: blue; z-index: 100;"></div>
+    <div class="box" style="background-color: green; z-index: 99999;"></div>
+</body>
+</html>
